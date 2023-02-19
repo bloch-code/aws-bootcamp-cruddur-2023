@@ -34,3 +34,6 @@ I have tagged my code using git tag command.
 Also, I create two diagrams. 
 
 
+![Cruddur Diagram](_docs/assets/CruddConceptualDiagram.svg)
+
+![Cruddur Logical Diagram](_docs/assets/CruddurLogicalDiagram.svg )
