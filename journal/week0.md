@@ -33,7 +33,9 @@ I have tagged my code using git tag command.
 
 Also, I create two diagrams. 
 
+## Conceptual diagram
 
 ![Cruddur Diagram](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/8c957492715ecefbabca973b5e1799631acacfc0/_docs/assets/CruddConceptualDiagram.svg#L1)
 
+## Logical diagram
 ![Cruddur Logical Diagram](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/8c957492715ecefbabca973b5e1799631acacfc0/_docs/assets/CruddurLogicalDiagram.svg#L1)
