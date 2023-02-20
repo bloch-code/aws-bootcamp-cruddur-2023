@@ -36,6 +36,8 @@ Also, I create two diagrams.
 ### Conceptual diagram
 
 ![Cruddur Diagram](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/8c957492715ecefbabca973b5e1799631acacfc0/_docs/assets/CruddConceptualDiagram.svg#L1)
+[Link to Lucid Chart](https://lucid.app/lucidchart/e29068c3-9d31-4c9a-8306-7a7e1485ca92/edit?viewport_loc=-297%2C-45%2C2219%2C1052%2C0_0&invitationId=inv_637597a4-77a3-43b3-9f4a-7c3e48dea120)
 
 ### Logical diagram
 ![Cruddur Logical Diagram](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/8c957492715ecefbabca973b5e1799631acacfc0/_docs/assets/CruddurLogicalDiagram.svg#L1)
+[Link to Lucid Chart](https://lucid.app/lucidchart/8386b507-9d92-4851-b982-ae277d3318e3/edit?viewport_loc=-762%2C145%2C3012%2C1428%2C0_0&invitationId=inv_0cce6e36-8838-4d5b-a8b8-9536b49768fa)
