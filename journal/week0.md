@@ -34,6 +34,6 @@ I have tagged my code using git tag command.
 Also, I create two diagrams. 
 
 
-![Cruddur Diagram](_docs/assets/CruddConceptualDiagram.svg)
+![Cruddur Diagram](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/8c957492715ecefbabca973b5e1799631acacfc0/_docs/assets/CruddConceptualDiagram.svg#L1)
 
-![Cruddur Logical Diagram](_docs/assets/CruddurLogicalDiagram.svg )
+![Cruddur Logical Diagram](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/8c957492715ecefbabca973b5e1799631acacfc0/_docs/assets/CruddurLogicalDiagram.svg#L1)
