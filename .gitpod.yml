@@ -19,7 +19,7 @@ tasks:
   - name: install-npm
     init: |
       cd ./frontend-react-js/
-      sudo npm i
+      sudo npm install
 
 vscode:
   extensions:
