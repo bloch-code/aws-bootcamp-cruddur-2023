@@ -16,6 +16,8 @@ tasks:
       sudo apt update
       sudo apt install -y postgresql-client-13 libpq-dev
 
+  - init: npm install && npm run build
+
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
