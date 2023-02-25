@@ -17,7 +17,7 @@ tasks:
       sudo apt install -y postgresql-client-13 libpq-dev
 
   - name: install-npm
-    init: 
+    init: |
       cd ./frontend-react-js/
       sudo npm i
 
