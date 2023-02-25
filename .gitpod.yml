@@ -19,8 +19,7 @@ tasks:
   - name: install-npm
     init: |
       cd ./frontend-react-js/
-      npm install
-      cd $THEIA_WORKSPACE_ROOT
+      echo npm install
 
 vscode:
   extensions:
