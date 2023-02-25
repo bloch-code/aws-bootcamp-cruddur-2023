@@ -7,9 +7,7 @@ During the videos and self practice I have manage to mixed up a code and linked 
 
 ![Notification Page](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/Screenshot%202023-02-25%20at%2015.27.48.png)
 
-4. DynamoDB and Postgrate databases both have been set up correctly.
-
-container composer doers install everything as it should. 
+4. DynamoDB and Postgrate databases both have been set up correctly. Container composer does install everything as it should. 
 
 ![Composer in action](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/Screenshot%202023-02-25%20at%2016.39.07.png)
 
