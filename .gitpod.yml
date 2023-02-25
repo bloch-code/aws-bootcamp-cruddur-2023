@@ -16,10 +16,10 @@ tasks:
       sudo apt update
       sudo apt install -y postgresql-client-13 libpq-dev
 
-  - name: install-npm
-    init: |
-      cd ./frontend-react-js/
-      npm install
+  # - name: install-npm
+  #   init: |
+  #     cd ./frontend-react-js/
+  #     npm install
 
 vscode:
   extensions:
