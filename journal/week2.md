@@ -35,6 +35,8 @@ Remember a good practice when working on projects is to use python virtual envir
 I have set Honeycomb by adding instructions to requirements file and app.py. Following Andrew provided instruction to follow. 
 I'm going to check more about what the code does.  
 
+Honeycomb account has been linked successfully.
+
 **What I might start to do**
 Think of using vim to practice as it is a good editor for programmers.
 I need to learn more about Docker. To understand exactly commands and what volumes does!
