@@ -12,4 +12,31 @@ Distributed tracing. I deal with that at work using DataDog. I didn’t know wha
 
 ![Definiton of traces](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/traces_def.png)
 
+Instrumentation – good to know that this is a code that compose a trace by sending data. Lesson learned.
 
+Amazon X-ray does similar job to what honeycomb do. 
+
+**I decided to do some extra work along as I go alonf with a course and whenever I have time. I will complete extra challenges for each week. That have to happen!**
+
+Good to know why we use export on our variables. If we don’t do that by setting up our variables they will be used only in current shell. If we export variables they will be used in sub shells too.
+
+**Tips learned**
+
+Good practice to follow. When we set up a project like app we want give our service their own service names such as different ones for backend and frontend.
+
+OTEL – short for open Telemetry.
+
+What is Telemetry exactly -> What is Telemetry? Telemetry automatically collects, transmits and measures data from remote sources, using sensors and other devices to collect data. In cloud and IT it is a standard used by all cloud providers.
+
+Remember a good practice when working on projects is to use python virtual environments.
+
+**What I have achieved**
+
+I have set Honeycomb by adding instructions to requirements file and app.py. Following Andrew provided instruction to follow. 
+I'm going to check more about what the code does.  
+
+**What I might start to do**
+Think of using vim to practice as it is a good editor for programmers.
+I need to learn more about Docker. To understand exactly commands and what volumes does!
+
+Remember to use in real life we use rocker-compose different versions in dev to prod.
