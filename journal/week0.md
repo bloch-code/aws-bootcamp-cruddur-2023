@@ -1,4 +1,5 @@
 # Week 0 — Billing and Architecture
+
 ## What I have achieved
 I watched all the videos required to get up to speed with my homework. This helped me to refresh my cloud knowledge and get me up to speed ahead of second lecture. 
 * Pricing Basics and Free tier
