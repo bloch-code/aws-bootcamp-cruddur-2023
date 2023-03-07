@@ -35,10 +35,21 @@ Remember a good practice when working on projects is to use python virtual envir
 I have set Honeycomb by adding instructions to requirements file and app.py. Following Andrew provided instruction to follow. 
 I'm going to check more about what the code does.  
 
-Honeycomb account has been linked successfully.
+Honeycomb account has been linked successfully and sends data from our app!
+![Proof of data in Honeycombe](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/data%20in%20honey.PNG)
+
+![Another proof of data in Honeycombe](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/data%20in%20honey2.PNG)
+
+
+
 
 **What I might start to do**
 Think of using vim to practice as it is a good editor for programmers.
 I need to learn more about Docker. To understand exactly commands and what volumes does!
 
 Remember to use in real life we use rocker-compose different versions in dev to prod.
+
+## Issues on the way to complete week 2
+
+I have run into CORS error again as I was working now not on local ```env```
+This got me thinking and I have created another docker-composer file to distinguish between environments.
