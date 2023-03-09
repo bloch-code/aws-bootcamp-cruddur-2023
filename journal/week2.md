@@ -41,6 +41,12 @@ Honeycomb account has been linked successfully and sends data from our app!
 ![Another proof of data in Honeycombe](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/data%20in%20honey2.PNG)
 
 
+**Custom span was created**
+
+![Custom span](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/createdSpan.PNG)
+
+**Setting up X-ray**
+
 
 
 **What I might start to do**
