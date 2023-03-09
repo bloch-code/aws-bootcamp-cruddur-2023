@@ -3,9 +3,7 @@ services:
   backend-flask:
     environment:
       FRONTEND_URL: "https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
-      #FRONTEND_URL: "*"
       BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
-      #BACKEND_URL: "*"
       OTEL_EXPORTER_OTLP_ENDPOINT: "https://api.honeycomb.io"
       OTEL_EXPORTER_OTLP_HEADERS: "x-honeycomb-team=${HONEYCOMB_API_KEY}"
       OTEL_SERVICE_NAME: "backend-flask"
@@ -20,7 +18,6 @@ services:
   frontend-react-js:
     environment:
       REACT_APP_BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
-      #REACT_APP_BACKEND_URL: "http://127.0.0.1:4567"
     build: ./frontend-react-js
     ports:
       - "3000:3000"
@@ -32,7 +29,7 @@ services:
     environment:
       AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
-      AWS_REGION: "us-east-1"
+      AWS_DEFAULT_REGION: "us-east-1"
     command:
       - "xray -o -b xray-daemon:2000"
     ports:
@@ -59,12 +56,12 @@ services:
       - POSTGRES_PASSWORD=password
     ports:
       - '5432:5432'
-    volumes: 
+    volumes:
       - db:/var/lib/postgresql/data
 
 # the name flag is a hack to change the default prepend folder
 # name when outputting the image names
-networks: 
+networks:
   internal-network:
     driver: bridge
     name: cruddur

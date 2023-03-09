@@ -51,6 +51,14 @@ AWS X-ray was instrumented correclty based on Andrew instructions.
 
 ![Proof of Xray trace](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/xray.png)
 
+Our app sends data to AWS X-ray
+
+![Proof of Xray trace 2](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/xray.png)
+
+**Adding subsegments**
+
+
+
 
 **What I might start to do**
 Think of using vim to practice as it is a good editor for programmers.
