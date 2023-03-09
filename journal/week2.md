@@ -47,6 +47,9 @@ Honeycomb account has been linked successfully and sends data from our app!
 
 **Setting up X-ray**
 
+AWS X-ray was instrumented correclty based on Andrew instructions.
+
+![Proof of Xray trace](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/xray.png)
 
 
 **What I might start to do**
