@@ -62,9 +62,15 @@ Our app sends data to AWS X-ray
 *side note: thanks to checking other repos I discovered **gitmoji** which is a nice addition while doing commit*
 
 
+## Watchtower adn implementing Cloudwatch!
+
+CLoudWatch Logs were implemented succesfully and data was send to AWS. Code later was commented out just in case if we get charge for it.
+
+![CloudWatch]()
 
 
 **What I might start to do**
+
 Think of using vim to practice as it is a good editor for programmers.
 I need to learn more about Docker. To understand exactly commands and what volumes does!
 
