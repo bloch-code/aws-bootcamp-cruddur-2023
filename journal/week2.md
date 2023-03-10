@@ -75,8 +75,18 @@ What is Rollbar used for?
 *Rollbar is a cloud-based bug tracking and monitoring solution that caters to organizations of all sizes. Rollbar supports multiple programming languages and frameworks like JavaScript, Python, . NET, Drupal, Wordpress and Pyramid.*
 
 
+**Proof of Rollbar new test end point in Cruddur app**
+
+![Rollbar end point working](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/RollbarEndPoint.png)
+
+Finding errors in Rollbar is easy. Example of an error when we removed ```return``` from our home activities code.
+
+![Rollbar end point working](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/RollbarEndPoint.png)
 
 
+Dashboard is a nice way to find summary of errors and warnings captured.
+
+![Rollbar end point working](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/RollbarEndPoint.png)
 
 
 **What I might start to do**

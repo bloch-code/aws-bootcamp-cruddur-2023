@@ -106,8 +106,6 @@ def init_rollbar():
     got_request_exception.connect(rollbar.contrib.flask.report_exception, app)
 
 
-
-
 # ROLLBAR -------
 @app.route('/rollbar/test')
 def rollbar_test():
