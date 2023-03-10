@@ -66,7 +66,15 @@ Our app sends data to AWS X-ray
 
 CLoudWatch Logs were implemented succesfully and data was send to AWS. Code later was commented out just in case if we get charge for it.
 
-![CloudWatch]()
+![CloudWatch](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/cloudwatch.png)
+
+**Rollbar**
+
+What is Rollbar used for?
+
+*Rollbar is a cloud-based bug tracking and monitoring solution that caters to organizations of all sizes. Rollbar supports multiple programming languages and frameworks like JavaScript, Python, . NET, Drupal, Wordpress and Pyramid.*
+
+
 
 
 **What I might start to do**
