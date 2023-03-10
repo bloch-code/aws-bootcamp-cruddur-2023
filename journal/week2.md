@@ -81,12 +81,12 @@ What is Rollbar used for?
 
 Finding errors in Rollbar is easy. Example of an error when we removed ```return``` from our home activities code.
 
-![Rollbar end point working](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/RollbarEndPoint.png)
+![Rollbar Error](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/ErrorExample.png)
 
 
 Dashboard is a nice way to find summary of errors and warnings captured.
 
-![Rollbar end point working](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/RollbarEndPoint.png)
+![Rollbar Dashboard](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/RollbarDashboard.png)
 
 
 **What I might start to do**
