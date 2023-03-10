@@ -98,5 +98,6 @@ Remember to use in real life we use rocker-compose different versions in dev to 
 
 ## Issues on the way to complete week 2
 
-I have run into CORS error again as I was working now not on local ```env```
+- I have run into CORS error again as I was working now not on local ```env```
 This got me thinking and I have created another docker-composer file to distinguish between environments.
+- It was a lot to take and sometimes code wasn't working as we added a lot of observability tools. All errors were solved by debugging application. 
