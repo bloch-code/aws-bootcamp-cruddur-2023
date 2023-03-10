@@ -57,6 +57,10 @@ Our app sends data to AWS X-ray
 
 **Adding subsegments**
 
+![Proof of working subsegment](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/subsegment.png)
+
+*side note: thanks to checking other repos I discovered **gitmoji** which is a nice addition while doing commit*
+
 
 
 

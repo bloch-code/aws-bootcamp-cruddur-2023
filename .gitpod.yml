@@ -13,6 +13,13 @@ tasks:
     command: |
       cd frontend-react-js
       npm i
+      cd $THEIA_WORKSPACE_ROOT
+
+  - name: backend-flask
+    init: |
+      cd backend-flask
+      pip install -r requirements.txt
+      cd $THEIA_WORKSPACE_ROOT
 
   - name: postgres
     init: |
@@ -25,8 +32,6 @@ vscode:
   extensions:
     - 42Crunch.vscode-openapi
     - cweijan.vscode-postgresql-client2
-
-
 
 ports:
   - name: frontend
