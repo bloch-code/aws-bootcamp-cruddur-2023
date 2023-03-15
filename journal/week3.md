@@ -11,4 +11,8 @@ access applications individually using a different set of credentials for each. 
 distributes users&#39; identities across the network, as each application must store and handle
 its own user data.*
 
+**Following along....**
+
+Good thing is that following Andrew he makes mistakes too and realised this errors much later. This is good learning experience to pay attention to details also good one for debugging. 
+
 
