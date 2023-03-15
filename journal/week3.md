@@ -1,1 +1,14 @@
 # Week 3 — Decentralized Authentication
+
+**What is it and how it differs from normal auth?**
+
+I started by getting more understanding of what the decentralised auth do.
+
+*Centralized identity management means IAM all happens in one environment. In a workplace setting, this looks like the user signing into a single workspace to access all the applications and tools they need. Decentralized identity management means IAM is spread out across multiple environments.*
+
+*With decentralized authentication, also known as distributed identity management, users
+access applications individually using a different set of credentials for each. This model
+distributes users&#39; identities across the network, as each application must store and handle
+its own user data.*
+
+
