@@ -13,6 +13,12 @@ its own user data.*
 
 ## Backend authentication in cognito.
 
+For this we have passed authentication token to our backend to authentication. 
+With little help from StackOverflow we were able to implement our backend. 
+https://stackoverflow.com/questions/29386995/how-to-get-http-headers-in-flask  
+
+No server side auth verification required. All is handled by Congito! that's so much easier and quicker.
+
 **Following along....**
 
 Good thing is that following Andrew he makes mistakes too and realised this errors much later. This is good learning experience to pay attention to details also good one for debugging. 
