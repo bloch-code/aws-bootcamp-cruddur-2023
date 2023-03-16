@@ -19,6 +19,9 @@ https://stackoverflow.com/questions/29386995/how-to-get-http-headers-in-flask
 
 No server side auth verification required. All is handled by Congito! that's so much easier and quicker.
 
+We have grabbed verification service token from community driven project. This was more complicated then I expected. Even following Andrew was hard to do so. I would need to come back to this for sure!!!
+Is too late to code now as my brain is fright!
+
 **Following along....**
 
 Good thing is that following Andrew he makes mistakes too and realised this errors much later. This is good learning experience to pay attention to details also good one for debugging. 
