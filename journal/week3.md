@@ -56,7 +56,7 @@ Error message when no email was provided.
 
 ![Error msg for authentication code](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/resend_code_error_msg.PNG)
 
-Password reset coe proof.
+Password reset code proof.
 
 ![Password reset proof](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/pasword_reset_code.PNG)
 
