@@ -28,7 +28,38 @@ its own user data.*
 **Provision via ClickOps a Amazon Cognito User Pool**
 
 User pool was created.
-![User pool](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/ErrorExample.png)
+![User pool](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/user_pool.PNG)
+
+**Install and configure Amplify client-side library for Amazon Congito & Implement API calls to Amazon Coginto for custom login, signup, recovery and forgot password page 7 Show conditional elements and data based on logged in or logged out**
+
+Code was successfully added to multile places (HomeFeedPage, SigUpPage, SiginPage, ConfirmationPage) and user registration worked with user auto creation on our website.
+
+**Proof Below with screenshots**
+
+Activation code was sent out.
+
+![Activation code](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/ativationcodesend.PNG)
+
+Confirmed user in AWS Cognito.
+
+![Confirmed users in AWS cognito](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/confirmed_userincognito.PNG)
+
+Here is two auth code in Gmail. One was resend as a proof of resends funtionality.
+
+![Resend auth code](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/gmail_resend_confirmation.PNG)
+
+Authenticated and logged in user.
+
+![Logged in Cruddur user](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/logged_in_user.PNG)
+
+Error message when no email was provided.
+
+![Error msg for authentication code](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/resend_code_error_msg.PNG)
+
+Password reset coe proof.
+
+![Password reset proof](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/pasword_reset_code.PNG)
+
 
 
 ## Backend authentication in cognito.

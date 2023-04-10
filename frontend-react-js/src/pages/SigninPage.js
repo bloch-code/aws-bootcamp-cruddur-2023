@@ -3,7 +3,7 @@ import React from "react";
 import { ReactComponent as Logo } from '../components/svg/logo.svg';
 import { Link } from "react-router-dom";
 
-// [TODO] Authenication
+// Code below was added in week3 where we covered AWS Cognito and Aplify
 import { Auth } from 'aws-amplify';
 
 export default function SigninPage() {
@@ -12,11 +12,14 @@ export default function SigninPage() {
   const [password, setPassword] = React.useState('');
   const [errors, setErrors] = React.useState('');
 
+// Code below was added in week3 where we covered AWS Cognito and Aplify
+
   const onsubmit = async (event) => {
     setErrors('')
     event.preventDefault();
     Auth.signIn(email, password)
       .then(user => {
+        //extra code for debugging 
         console.log('user', user)
         localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)
         window.location.href = "/"

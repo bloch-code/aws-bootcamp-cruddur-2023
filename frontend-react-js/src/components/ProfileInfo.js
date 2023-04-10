@@ -2,7 +2,7 @@ import './ProfileInfo.css';
 import { ReactComponent as ElipsesIcon } from './svg/elipses.svg';
 import React from "react";
 
-// [TODO] Authenication
+// Code imported during week3 session when we worked with AWS Cognito and Aplify
 import { Auth } from 'aws-amplify';
 
 export default function ProfileInfo(props) {
@@ -11,6 +11,8 @@ export default function ProfileInfo(props) {
   const click_pop = (event) => {
     setPopped(!popped)
   }
+
+  // Code bekiw added during week3 session
 
   const signOut = async () => {
     try {
