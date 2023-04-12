@@ -1,3 +1,5 @@
+HTTP_HEADER = "Authorization"
+
 import time
 import requests
 from jose import jwk, jwt
