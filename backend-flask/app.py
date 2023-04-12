@@ -36,6 +36,7 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor
 # from time import strftime
 
 # ROLLBAR -------
+from time import strftime
 import rollbar
 import rollbar.contrib.flask
 from flask import got_request_exception
@@ -175,7 +176,6 @@ def data_home():
     app.logger.debug(e)
     app.logger.debug("unauthenicated")
     data = HomeActivities.run()
-
   return data, 200
 
 @app.route("/api/activities/notifications", methods=['GET'])
