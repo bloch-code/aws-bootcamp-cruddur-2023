@@ -73,11 +73,20 @@ Good lesson learned that there is no server side auth verification required. All
 
 **How this was implemented? in more detail** 
 
-We have grabbed verification service token from community driven project. This was more complicated then I expected. Even following Andrew was hard to do so. I would need to come back to this for sure!!!
-Is too late to code now as my brain is fright!
+We have grabbed verification service token from community driven project. This was more complicated then I expected. Even following Andrew was hard to do so. At the end I have managed to set up everything correctly and authentication was working. 
+
+Proof below...
+
+
+![Proof of authentication](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/jwt_api_authenticated_user.PNG)
+
+Below there are proofs of how one message is visible to authenticated / logged in user and then is not when user is logged out. 
+![Proof of authentication nr2](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/no_secret_message_when_logged_out.PNG)
+
+![Proof of authentication nr3](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/secret_message_for_logged_users.PNG)
 
 **Following along....**
 
-Good thing is that following Andrew he makes mistakes too and realised this errors much later. This is good learning experience to pay attention to details also good one for debugging. 
+Good thing is that following Andrew he makes mistakes too and realised these errors much later. This is good learning experience to pay attention to details also good one for debugging. 
 
 
