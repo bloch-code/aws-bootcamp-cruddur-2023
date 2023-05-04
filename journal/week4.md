@@ -1,8 +1,8 @@
-# Week 4 — Postgres and RDS
+# Week 4 — Postgres and RDS + Creating activities
 
-# H1 Week 4 Activities
+This week was all about setting up our database and write data to it. I have a chance to practice use of `CLI` commands to set up our database, **AWS RDS**, without a need to use console. 
 
-This week was all about setting up our database and write data to it. I have a chance to practice use of CLI commands to set up our database, AWS RDS, without a need to use console. From what we look at the lecture CLI set up looked much simpler than using console to configure our RDS DB.
+From what we look at the lecture CLI set up looked much simpler than using console to configure our RDS DB.
 
 We also used Psycopg2 which is a driver / connector for our Postgres DB to help us send data.
 
@@ -29,7 +29,7 @@ I must say Andrew is so good in setting up traps that he falls for them himself.
 
 Thanks to AWS Project Bootcamp I was introduced to bash scripting in more detail and was able to create a couple of scripts myself. 
 
-Shebang is (` #!` ), first time I have heard that phrase.
+Something new I have learned -> Shebang is (` #!` ), first time I have heard that phrase.
 
 I have also learned more about **CHMOD** which I used in the past but first time on a personal project. **CHMOD** it means change mode of a file
 When we have changed the permission files show up green.
@@ -55,7 +55,7 @@ I then moved on to create more bash scripts such as a connection one and script 
 ![Session file listing DB connections](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%204/created_sessions_file.PNG)
 
 
-We have inserted records to our table in **DEV DB** and run our first query.
+We have inserted records to our table in **DB** and run our first query.
 
 ![Proof of records in dev DB](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%204/records_in_the_table.PNG)
 
@@ -69,11 +69,12 @@ Error I was getting was `ERROR:  null value in column "user_uuid"`. I believe th
 ![Proof of connection to prod DB](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%204/connected_to_prod_db.PNG)
 
 
-I have then tested prod connection and modified our db-connect file by addind bash IF condition to differentiate between dev and prod to other bash files.
+I have then tested prod connection and modified our `db-connect` file by addind bash `IF` condition to differentiate between dev and prod to other bash files.
+
 Furthermore, as part of week 4 activities we have created db.py file and made updates to our home activities code.
 
-After we have modified files and added inbound rules to our RDS based on our Gitpod workspace IP which we then made sure it was auto-updated each time we start new workspace. 
-Then we were able to run our query to get a feed for our frontend and show it on the screen.
+After we have modified files and added inbound rules to our `RDS` based on our `Gitpod workspace IP` which we then made sure it was auto-updated each time we start new workspace. 
+This way we were able to run our query to get a feed for our frontend and show it on the screen.
 
 ![code update to db-connect script](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%204/updated_to_db_connect.PNG)
 
@@ -81,12 +82,12 @@ Then we were able to run our query to get a feed for our frontend and show it on
 
 ## Week 4 – AWS Lamda
 
-I crated a first lambda function called cruddur-post-confirmation. 
+I crated a first lambda function **called cruddur-post-confirmation**. 
 I used code provided by Andrew and have tried to add Lambda Layer as per instructions which at the end was successful after realising there are different layers per AWS AZ.
 
 What is Lambda Layers?
 
-A Lambda layer is a . zip file archive that can contain additional code or other content. A layer can contain libraries, a custom runtime, data, or configuration files.
+*A Lambda layer is a . zip file archive that can contain additional code or other content. A layer can contain libraries, a custom runtime, data, or configuration files.*
 
 Andrew showed us how to use cloudwatch logs for debugging. For debugging purpose we have printed our SQL to show up in logs.
 
@@ -109,7 +110,7 @@ Also, as we went along we have modified our user table and added an email and wh
 
 ## Create Activity!
 
-This was a challenging task and following Andrew I did a lot of coding. At the end when everything was set I was getting an error indicating that I m not inserting values to tables correctly as it was showing me NotNullViolation error. 
+This was a challenging task and following Andrew I did a lot of coding. At the end when everything was set I was getting an error indicating that I m not inserting values to tables correctly as it was showing me `NotNullViolation error`. 
 Thanks to AWS Bootcamp Project community I was able to find a solution and debug.
 
 ![Error that stopped posting](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%204/error_while_trying_to_post.PNG)
@@ -121,3 +122,5 @@ When problem was solved I was able to create a cruddur and post it!
 ![Backend logs with activities table](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%204/backend_logs_after_posting_activities.PNG)
 
 Extract from a table showing records in PROD database.
+
+So much fun!
