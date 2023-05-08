@@ -38,6 +38,12 @@ I have learned what is GSI and LSI in DynamoDB. For a newbie it is a valuable le
 
 I didn't know you can write the whole JSON file into oe field to our NoSQL DB.
 
+I have added boto3 to our installation. Boto is a python SDK for AWS.
+
+We have reorganized our folder and file stracture as we're going to create more bash scripts for DyanmoDB this time.
+I have learned about ising `**args` in python, definetly somethign I need to learn more about. 
+
+I have populated schema-laod bash script followin Andrew instruction
 
 
 
