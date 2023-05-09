@@ -110,3 +110,16 @@ Another thing to remember is that our Cognito user id is called sub and also it 
 I created a script to list users from cognito. This will help us access user id and dislay messages acordignaly.
 list_users_in_cognito
 
+
+we have run into error while trying to run our setup script.
+err_running_setup
+
+At the end error was due to uknown issue which we will address later along the line. Instead we have run our 1update_cognito_user_ids`.
+
+Then we went and deleted our cookies set up from a bunch of JS files as we will no longer use it. 
+
+I had to update uuid for my own user which meant to modify a code a bit as I don't have Andrews in my DB set correctly.
+
+Another tip from AB to use `vtrl + p`
+
+I have created Andrews in my cognito with my email address and I used option to test using gmail + option.
