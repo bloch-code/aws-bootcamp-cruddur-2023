@@ -43,8 +43,61 @@ I have added boto3 to our installation. Boto is a python SDK for AWS.
 We have reorganized our folder and file stracture as we're going to create more bash scripts for DyanmoDB this time.
 I have learned about ising `**args` in python, definetly somethign I need to learn more about. 
 
-I have populated schema-laod bash script followin Andrew instruction
+I have populated schema-laod bash script followin Andrew instruction. To test our code we have run the bash command for schema. 
+This created our table in dynamodb.
+
+***screenshot for dynamodb table***
+
+We then went to list our tables using bash file to check what we have. Also is good to know that using `\` we can write inline code in new line.
+
+list_of_tables_using_bash
+
+We have run our drop tabl script to test if it does delete tables. And it worked!
+
+Now let's talk about a big fat file called seed where we went through each code section Adnrew preperaed and make sure that we know what the seed file does for us.
+We have split our conversation into an array of string lines. Each line represents what a person 1 or 2 is saying in the cobversation, our test data.
+Next we went through each line to distinguish between person 1 and 2.
+
+I have learned about a good practice in bash scripts to use `else` to catch errors if it is not used in our logic to make action. Also that if input is simple such us variables separated instead of a dictionary then simpler output and easier to test our application. Good to remember that for the future projects.
+
+I have learned how to find and define a path of files we want to use if they're not in the same directory. It is thropugh finding current and parrent paths and then appending sys path to reference correct value.
+
+My development slowed down as I had a bug in my seed sql and didn't close an insert values statment with a  semicolon but a colon instead. this took me 30 min to realise. I'm even more impressed now how quickly Andrew debugs his errors.
+
+I think I might fall for one of Andrews trapas as I couldn't get results for users if I haven't commented out uor create message function while following along with Andrew. At the end I got the confirmation that we have my user and other user replaced instead of user names. 
+
+Definetly I would need to go through all the code again to properly understand everything into small details. It will eb good to learn bash scripting and use it more often to practice.
+I have managed to create a conversation within our database following instructions in the video.
+
+screenshot of conversation
+
+Andrew helped us to create a scan for our local env to list data that we have in our database. 
+This we achieved:
+- Data has been inserted
+- we seeded our data
 
 
 
+
+screenshot of scan
+
+
+
+We then moved forward and created a script to get us a list of coversation. Andrew helped us to get an output in a nice way, more human redable.
+
+get_conversation_1
+get_conversation_2
+
+Not nice from AWS that it tells you to use uppercase but then in fact you need to use lower case.. As a sanity check we have narrow down our return results to come back with one message.
+
+sanity_check_returns_one_message
+
+As you can see by dates this is genuine me trying running a script :fire: I m so happy that it does run.
+
+I have succesfully impleneted access patterns for dynamoDB. One obsticale was to implement a new function called `query_value`
+
+We had to modify our `db.py` to take more parameters to print query function.
+
+screenshot.
+capacity_and_return_record
 
