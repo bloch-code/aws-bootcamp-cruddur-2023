@@ -123,3 +123,7 @@ I had to update uuid for my own user which meant to modify a code a bit as I don
 Another tip from AB to use `vtrl + p`
 
 I have created Andrews in my cognito with my email address and I used option to test using gmail + option.
+This helped me to display messages between Andrews. I have run into errors and couldn;t get messages to show but after restarting the workspace then rerunning DB set up, cognito user update and DynamoDB seed I was able to come this obstacle.
+Now all is loading correctly. Also I have fixed an error which React complained about where a class had 3 `s` there. I found solution on discord but was able to find this problem myself by seraching for Class`s` within files.
+
+retunred_andrews_conversation
