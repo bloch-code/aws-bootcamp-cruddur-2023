@@ -103,3 +103,7 @@ capacity_and_return_record
 
 # Implement to fron end and back end application
 
+For a start we created a library for DanamoDB.
+Good lesson about state and stateless classes and that the second ones simplyfy testing as you only need to worry about I/O.
+Another thing to remember is that our Cognito user id is called sub and also it is our uuid in our DBs.
+
