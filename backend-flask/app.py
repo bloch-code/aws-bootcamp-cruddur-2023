@@ -141,6 +141,7 @@ def data_message_groups():
       return model['data'], 200
   except TokenVerifyError as e:
     # unauthenicatied request
+    app.logger.debug(e)
     return{}, 401
 
 @app.route("/api/messages/@<string:handle>", methods=['GET'])
