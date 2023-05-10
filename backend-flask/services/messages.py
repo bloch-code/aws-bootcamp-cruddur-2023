@@ -14,6 +14,8 @@ class Messages:
       'cognito_user_id': cognito_user_id
     })
 
+    print(f"UUID: {my_user_uuid}")
+
     ddb = Ddb.client()
     data = Ddb.list_messages(ddb, message_group_uuid)
     print("list_messages")

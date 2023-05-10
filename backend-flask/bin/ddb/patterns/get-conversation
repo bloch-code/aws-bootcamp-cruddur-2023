@@ -47,7 +47,6 @@ print(json.dumps(response['ConsumedCapacity'], sort_keys=True, indent=2))
 
 items = response['Items']
 items.reverse()
-#items.reverse()
 
 for item in items:
   sender_handle = item['user_handle']['S']
