@@ -17,7 +17,7 @@ class Ddb:
     return dynamodb
   
   def list_message_groups(client,my_user_uuid):
-    year = str(datetime.now().year)
+    year = str(datetime.datetime.now().year)
     table_name = 'cruddur-messages'
     query_params = {
       'TableName': table_name,
@@ -38,6 +38,8 @@ class Ddb:
     items = response['Items']
     
     print("items::", items)
+
+    items.reverse()
 
     results = []
     for item in items:

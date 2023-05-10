@@ -3,7 +3,7 @@
 import boto3
 import sys
 import json
-import datetime
+from datetime import datetime
 
 attrs = {
   'endpoint_url': 'http://localhost:8000'
@@ -20,7 +20,6 @@ message_group_uuid = "5ae290ed-55d1-47a0-bc6d-fe2bc2700399"
 
 year = str(datetime.now().year)
 # define the query parameters
-
 query_params = {
   'TableName': table_name,
   'ScanIndexForward': False,
@@ -47,7 +46,7 @@ print(json.dumps(response, sort_keys=True, indent=2))
 print(json.dumps(response['ConsumedCapacity'], sort_keys=True, indent=2))
 
 items = response['Items']
-reversed_array = items[::-1]
+items.reverse()
 #items.reverse()
 
 for item in items:

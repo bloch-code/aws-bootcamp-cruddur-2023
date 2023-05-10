@@ -127,3 +127,11 @@ This helped me to display messages between Andrews. I have run into errors and c
 Now all is loading correctly. Also I have fixed an error which React complained about where a class had 3 `s` there. I found solution on discord but was able to find this problem myself by seraching for Class`s` within files.
 
 retunred_andrews_conversation
+
+I have learned in a hardway that when you;re tired is easy to make a mistake. I struggled to understand what I did wrong while trying to pass uuid to our URL and instead of `.` I used `_` to link `message_group.uiid`
+
+uuid_in_url
+uuid_in_url2
+
+We have replaced code in our messages.py file with a more simplet one and we are using a class and method within to call our message_group_uuid
+We have started prepering our code to restrict views of messages which we will implement in later stages. 
