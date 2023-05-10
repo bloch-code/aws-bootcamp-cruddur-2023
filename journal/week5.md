@@ -135,3 +135,9 @@ uuid_in_url2
 
 We have replaced code in our messages.py file with a more simplet one and we are using a class and method within to call our message_group_uuid
 We have started prepering our code to restrict views of messages which we will implement in later stages. 
+
+After a bit of struggle and going back and forward I have finally managed to get this to work! I was able to display list of grouped messages for our famous Andrews users.
+
+grou_messages
+group_messages_frontend
+
