@@ -141,3 +141,19 @@ After a bit of struggle and going back and forward I have finally managed to get
 grou_messages
 group_messages_frontend
 
+After a bit of struggle implementing the code to create new messages in the conversation I finally got it. Problem was with the seed file for DynamoDB time forma as messages were showing up with a negative value. Thanks to discord community I was able to solve this problem.
+
+create_msg_action_working
+
+## setting up Dynamo stream
+
+I have successfully created new Lambda to access DynamoDB streams. In order for it to functin we had to create a new policy and permission set for our function.
+After that we started to work on prodcution DB.
+Here is a proof of a message sen in production.
+message_in_prod
+
+
+
+
+
+
