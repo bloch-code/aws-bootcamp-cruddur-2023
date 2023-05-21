@@ -111,7 +111,7 @@ I have successfully implemented access patterns for DynamoDB. One obstacle was t
 
 ![Error in db files](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%205/fixed_by_modifying_dbpy.PNG)
 
-We had to modify our db.py to take more parameters to print query function.
+We had to modify our `db.py` to take more parameters to print query function.
 
 ![Capacity of returned records](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%205/capacity_and_return_record.PNG)
 
@@ -119,7 +119,7 @@ We had to modify our db.py to take more parameters to print query function.
 
 For a start we created a library for DanamoDB. 
 
-Good lesson about state and stateless classes and that the second ones simplify testing as you only need to worry about I/O. Another thing to remember is that our Cognito user id is called sub and also it is our uuid in our DBs.
+Good lesson about state and stateless classes and that the second ones simplify testing as you only need to worry about `I/O`. Another thing to remember is that our Cognito user id is called sub and also it is our uuid in our DBs.
 
 I created a script to list users from Cognito. This will help us access user id and display messages accordingly.
 
@@ -129,7 +129,7 @@ We have run into error while trying to run our setup script.
 
 ![Error running a DB set up](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%205/err_running_setup.PNG)
 
-At the end error was due to unknown issue which we will address later along the line. Instead, we have run our ‘update_cognito_user_ids`.
+At the end error was due to unknown issue which we will address later along the line. Instead, we have run our `update_cognito_user_ids`.
 
 Then we went and deleted our cookies set up from a bunch of JS files as we will no longer use it.
 
