@@ -41,7 +41,7 @@ How do we do join in DynamoDB? There is no joints between tables as such like in
 
 I have learned that DynamoDB has something called PartiQL where you can run queries on DynamoDB. At this point I was not sure how do we retrieve data from DynamoDB if we're not using queries.
 
-DynamoDB has partition keys which act like primary keys in SQL DB. these keys can eb simple or composite. Also, DynamoDB has its own hash function.
+DynamoDB has partition keys which act like primary keys in SQL DB. these keys can be simple or composite. Also, DynamoDB has its own hash function.
 
 Andrew supervised by Kirk helped us to understand how data is modelled.
 Two keys are used in NoSQL DynamodDB; partition and sort key. It is interesting to see single table design for application.
