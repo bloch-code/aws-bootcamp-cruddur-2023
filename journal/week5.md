@@ -52,9 +52,9 @@ I have learned what is GSI and LSI in DynamoDB. For a newbie it is a valuable le
 
 I didn't know that you can write the whole JSON file into one field to our NoSQL DB as a record.
 
-To get my DynamoDB work I had to add boto3 to our installation. Boto is a python SDK for AWS.
+To get my DynamoDB work I had to add `boto3` to our installation. Boto is a python SDK for AWS.
 
-We have reorganized our folder and file structure as we are going to create more bash scripts for DynamoDB this time. I have learned about using **args in python, definitely something I need to learn more about in the future.
+We have reorganized our folder and file structure as we are going to create more bash scripts for DynamoDB this time. I have learned about using `**args` in python, definitely something I need to learn more about in the future.
 
 ![Proof of reorganised folders](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%205/folder_reorganisation.PNG)
 
