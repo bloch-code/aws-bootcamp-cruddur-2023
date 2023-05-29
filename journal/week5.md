@@ -185,3 +185,40 @@ Proof of Lambda.
 ![New lambda function](https://github.com/bloch-code/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week%205/new_lambda.PNG)
 
 
+## OpenUpTheCloud - My resume homework
+
+**My summary section**
+
+*As a forward-thinking IT professional with a strong foundation in computer science, I have a proven track record of delivering innovative solutions and providing resilient support to businesses. My passion for staying at the forefront of technology led me to obtain my AWS Cloud Practitioner certification, and I actively seek opportunities to expand my knowledge and skills.*
+
+*During my participation in the AWS Project Bootcamp, I gained valuable hands-on experience working with a variety of AWS services, including AWS Lambda, IAM, and Cognito. Leveraging AWS Lambda, I successfully implemented serverless functions to enhance the performance and scalability of our application. Through IAM, I proficiently set up roles and permissions for both users and services, ensuring secure access and streamlined operations.*
+
+*For our application, we utilized Python Flask as the backend framework, allowing us to build robust and flexible APIs. The frontend was developed using ReactJS, enabling us to create an intuitive and interactive user interface. This comprehensive tech stack allowed us to deliver a seamless user experience and maximize the application's potential.*
+
+*In addition to my AWS expertise and technical skills, I have honed my communication and problem-solving abilities throughout my roles within Gatwick Airport's IT department and my current position as a Site Operations Engineer at Dunelm. I thrive in collaborative environments, contributing as a valuable team member while also taking ownership of individual responsibilities. My dedication to achieving success and exceeding expectations has consistently positioned me as a reliable and results-driven professional.*
+
+*I am enthusiastic about the opportunity to contribute my expertise to your organization and be part of a team that shares my commitment to innovation and excellence. With my extensive hands-on experience in AWS services like Lambda, IAM, and Cognito, along with my proficiency in Python Flask and ReactJS, I am confident in my ability to make a significant impact on your cloud infrastructure and applications.*
+
+*Thank you for considering my application. I am excited about the potential to join your team and contribute to the continued growth and success of your organization.*
+
+**Furthermore-Think as hiring manager**
+
+Fears of hiring manager:
+* no cloud background,
+* no day to day hands on experience,
+* new to industry,
+* too many certificates not enough practical knowledge, 
+* changing jobs too often,
+* poor CV,
+* no multi cloud experience,
+
+Dreams of hiring manager,
+* already works in the industry and has Cloud experience
+* proof of working in multi cloud stacks,
+* works daily with the code and cloud infrastructure,
+* steady progression through out carrier,
+* good recommendations, 
+* well formatted CV, 
+* proactive during recruiting process, 
+
+
